@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+        <a-torus position="-2 1 -5" color="green" radius="1.2"></a-torus> 
+        <a-cylinder color="yellow" height="2" radius="0.05" position="-2 -1 -5"></a-cylinder>
+        <a-cylinder color="blue" height="2" radius="0.05"position="-3 -1 -5"></a-cylinder>
+        <a-torus-knot color="orange" radius="1.2"position="-3 1 -5"></a-torus-knot>
+        <a-plane width="9" height="2" position="3 1 -9"></a-plane>
+        <a-plane width="10" height="10" rotation="-58 -1 0" position="-2.5 -2.7 -7" color="purple"></a-plane>
+        <a-text value="Welcome to browser's VR (st.Maslak Olga)" color="black" width="10" position="-0.5 1 -6"></a-text>
+    </a-scene>
+  </body>
+</html>
